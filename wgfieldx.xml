@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="1.0" type="plugin" group="content" method="upgrade">
+	<name>WG FieldX</name>
+	<author>Lauro W. Guedes</author>
+	<creationDate>Ago 2015</creationDate>
+	<copyright>Copyright (C) leowgweb.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>leo-ti@hotmail.com</authorEmail>
+	<authorUrl>leowgweb.com.br</authorUrl>
+	<version>1.0</version>
+	<description><![CDATA[
+                <p>Plugin que adiciona campo extra no formulário de artigo.</p>
+                <p>Versão <strong>1.0</strong></p>
+                <p>Adaptado por Lauro W. Guedes com base em <a href="https://goo.gl/wDzlBO" target="_blank">https://goo.gl/wDzlBO</a></p>
+                <p>leo-ti@hotmail.com / leowgweb@gmail.com <br/><a href="http://leowgweb.com.br">www.leowgweb.com.br</a><br/></p>
+                <p><a href="http://leowgweb.com.br/inicio/extensoes-joomla/item/375-wg-fieldx" target="_blank">Tutorial de configuração e utilização do Plugin</a></p>
+        ]]></description>
+
+	<files>
+		<filename plugin="wgfieldx">wgfieldx.php</filename>
+		<filename>forms/content.xml</filename>
+		<filename>forms/index.html</filename>
+		<filename>index.html</filename>
+	</files>
+	<languages>
+		<language tag="en-GB">language/en-GB.plg_content_wgfieldx.ini</language>
+		<language tag="en-GB">language/en-GB.plg_content_wgfieldx.sys.ini</language>
+		<language tag="pt-BR">language/pt-BR.plg_content_wgfieldx.ini</language>
+		<language tag="pt-BR">language/pt-BR.plg_content_wgfieldx.sys.ini</language>
+	</languages>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="showfield" type="list" default="" label="PLG_CONTENT_WGFIELDX_XML_LABEL" description="">
+				  <option value="0">PLG_CONTENT_WGFIELDX_LABEL_OP0</option>
+				  <option value="1">PLG_CONTENT_WGFIELDX_LABEL_OP1</option>
+				  <option value="2">PLG_CONTENT_WGFIELDX_LABEL_OP2</option>
+				</field>
+				<field name="nota1" type="note" label="INFO1_TITULO" description="INFO1_DESC" />
+				<field name="nota2" type="note" label="INFO2_TITULO" description="INFO2_DESC" />
+				<field name="nota3" type="note" label="INFO3_TITULO" description="INFO3_DESC" />
+			</fieldset>
+		</fields>
+	</config>
+
+</extension>

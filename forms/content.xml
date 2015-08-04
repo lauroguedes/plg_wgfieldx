@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form>
+	<fields name="attribs">
+        <fieldset name="params" label="PLG_CONTENT_WGFIELDX_ABA">
+
+            <field name="exemplo"
+                type="text"
+                label="PLG_CONTENT_WGFIELDX_LABEL"
+                />
+
+        </fieldset>
+	</fields>
+</form>
